@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "swp",
+                "projectName": "swp",
+                "workingDirectory": "c:\\Users\\Sso\\Documents\\workspace-sts-3.9.6.RELEASE\\bootSwp\\swp",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "swp",
+                "projectName": "swp",
+                "workingDirectory": "c:\\Users\\Sso\\Documents\\workspace-sts-3.9.6.RELEASE\\bootSwp\\swp",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
