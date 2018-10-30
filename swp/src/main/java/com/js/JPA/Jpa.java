@@ -1,16 +1,17 @@
 package com.js.JPA;
 
+import java.util.List;
+
 import com.js.domian.Board;
-import com.js.domian.User;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.query.Param;
 
+    public interface Jpa extends JpaRepository<Board, Integer> {
 
-    public interface Jpa extends JpaRepository<Board, String> {
+        @Query(value = "select * from board")
+        List<Board> findByList();
 
-        // @Query("delete from user where id =: id")
-        // User delete(String id);
+        List<Board> findByNameAnd (int bno);
+
     }
