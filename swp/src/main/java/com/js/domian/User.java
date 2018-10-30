@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Entity //태이블이라는거
 // @Table(name = "User")
-@Getter @Setter
+@Getter @Setter //exclude
 public class User {
 
     @Id //기본키
